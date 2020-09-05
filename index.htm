@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<!--
+--
+--
+--
+--  This code is like the Sun: looking at it will probably hurt your eyes.
+--
+--
+--
+--
+-->
+
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html lang="en"><!--<![endif]-->
+<!--<html lang="ak">--><!--Made in Ghana-->
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Trump or the Sun?</title>
+  <meta name="author" content="DW">
+  <meta name="description" content="'Dense, large, and a star': Trump or the Sun?">
+  <meta name="keywords" content="trump,sun,dense,game,pick,trump,thesun,the sun,donald">
+  <link rel="shortcut icon" href="favicon.png" type="image/png"><!--type="image/vnd.microsoft.icon"-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <style type="text/css">
+    .img-bg {
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  height: 100%;
+	}
+	
+	.img-trump {
+		background-image: url("trump.jpg");
+		background-position: top center;
+	}
+	
+	.img-sun {
+		background-image: url("sun.jpg");
+		background-position: center center;
+	}
+	
+	.shadowy {
+		color: white;
+		text-shadow: 0 0 12px black;
+		font-weight: bold;
+	}
+	
+	.questiontext {
+		font-size: 40px;
+	}
+	
+	.questiontext-small {
+		font-size: 36px;
+	}
+	
+	.subqtext {
+		font-size: 20px;
+	}
+	
+	.buttontext {
+		font-size: 24px;
+	}
+	
+	.dscoretext {
+		font-size: 40px;
+	}
+	
+	.attribtext {
+		font-size: 12px;
+		font-weight: normal;
+	}
+	
+	.contribtext {
+		font-size: 12px;
+		color: #DADCDF;
+		font-weight: normal;
+		text-decoration: underline;
+	}
+	
+	.contribtext:hover {
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+	.hoverbold:hover {
+		font-weight: bold;
+	}
+	
+	.hv {
+		visibility: hidden;
+		text-decoration: underline;
+	}
+	.hv:hover {
+		visibility: visible;
+		text-decoration: none;
+	}
+	.nhv {
+		visibility: visible;
+	}
+	
+	.uline {
+		text-decoration: underline;
+	}
+	.uline:hover {
+		text-decoration: none;
+	}
+	
+	.image-credits {
+		font-size: 12px;
+		color: #AAAAAA;
+	}
+	
+	.favicon {
+		background-image: url("favicon.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 20px;
+		height: 20px;
+	}
+  </style>
+  </head>
+  
+  <body class="d-flex flex-column align-items-stretch" style="height: 100vh">
+	<header>
+	  <div class="bg-dark collapse" id="navbarHeader">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-8 col-md-7 py-4">
+				<h4 class="text-white">How to play</h4>
+				<p class="text-white"><i><b>&ldquo;A large, dense star&rdquo;</b></i>: does this describe
+				<a href="https://en.wikipedia.org/wiki/Donald_Trump">U.S. President Donald J. Trump</a> or
+				<a href="https://en.wikipedia.org/wiki/Sun">the Sun</a>?</p>
+				<p class="text-white">Try out all <span id="numq"></span> hand&ndash;picked and community&ndash;chosen prompts!
+					<span class="uline" data-toggle="collapse" data-target="#navbarHeader">Let's play!</span></p>
+				<p class="text-white">Most answers are pretty much arbitrary &mdash; don't take this too seriously.</p>
+				<p class="image-credits">Images: Trump: Gage Skidmore/Flickr; Sun: NASA (public domain)</p>
+				<h5 class="text-white uline" data-toggle="collapse" data-target="#ulcontact">Contact</h5>
+				<ul class="list-unstyled collapse" id="ulcontact">
+					<li><p class="text-white">See PGP information <a href="/PGP">here</a>.</p></li>
+					<li><p class="text-white">No contact details yet.</p></li>
+					<li><p class="text-white hv"><span class="nhv">Send hate mail or death threats</span> to: <span class="text-muted">0 Null Island, Akwidaa, Ghana WH0730  </span></p></li>
+				</ul>
+			</div>
+			<div class="col-sm-4 offset-md-1 py-4">
+			  <h4 class="text-white">Contribute</h4>
+			  <ul class="list-unstyled">
+				<li><p class="text-muted"><a href="http://twitter.com/intent/tweet?text=This%20is%20my%20one-sentence%20prompt.%20This%20is%20the%20explanation.%20Answer%3A%20Sun%20%23TrumpOrSun%20%24LINK" style="visibility:visible;">
+					Suggest a prompt via Twitter.</a> Make sure to include the hashtag #TrumpOrSun!</p></li>
+				<li><p class="text-white">Share on <a href="https://www.instagram.com/">Instagram</a> • <a href="http://twitter.com/intent/tweet?text=%22A%20hot%2C%20dense%20star%22%3A%20is%20that%20Trump%20or%20the%20Sun%3F%20%23TrumpOrSun%20%24LINK">Twitter</a>.
+				<span class="text-muted">The more people play the game, the more prompts to try out!</span></p></li>
+				<li><p class=""><b><a href="https://www.headcount.org/registertovote/?source=t" class="">Register to vote.</a></b> <span class="text-muted">We need your vote!</span></p></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="navbar navbar-dark bg-dark shadow-sm">
+		<div class="container d-flex justify-content-between">
+			<a href="#" class="navbar-brand d-flex align-items-center">
+			
+			  <!--<svg width="20" height="20" viewBox="0 0 16 16" class="mr-2 bi bi-sun" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				  <path d="M3.5 8a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z"/>
+  				  <path fill-rule="evenodd" d="M8.202.28a.25.25 0 0 0-.404 0l-.91 1.255a.25.25 0 0 1-.334.067L5.232.79a.25.25 0 0 0-.374.155l-.36 1.508a.25.25 0 0 1-.282.19l-1.532-.245a.25.25 0 0 0-.286.286l.244 1.532a.25.25 0 0 1-.189.282l-1.509.36a.25.25 0 0 0-.154.374l.812 1.322a.25.25 0 0 1-.067.333l-1.256.91a.25.25 0 0 0 0 .405l1.256.91a.25.25 0 0 1 .067.334L.79 10.768a.25.25 0 0 0 .154.374l1.51.36a.25.25 0 0 1 .188.282l-.244 1.532a.25.25 0 0 0 .286.286l1.532-.244a.25.25 0 0 1 .282.189l.36 1.508a.25.25 0 0 0 .374.155l1.322-.812a.25.25 0 0 1 .333.067l.91 1.256a.25.25 0 0 0 .405 0l.91-1.256a.25.25 0 0 1 .334-.067l1.322.812a.25.25 0 0 0 .374-.155l.36-1.508a.25.25 0 0 1 .282-.19l1.532.245a.25.25 0 0 0 .286-.286l-.244-1.532a.25.25 0 0 1 .189-.282l1.508-.36a.25.25 0 0 0 .155-.374l-.812-1.322a.25.25 0 0 1 .067-.333l1.256-.91a.25.25 0 0 0 0-.405l-1.256-.91a.25.25 0 0 1-.067-.334l.812-1.322a.25.25 0 0 0-.155-.374l-1.508-.36a.25.25 0 0 1-.19-.282l.245-1.532a.25.25 0 0 0-.286-.286l-1.532.244a.25.25 0 0 1-.282-.189l-.36-1.508a.25.25 0 0 0-.374-.155l-1.322.812a.25.25 0 0 1-.333-.067L8.203.28zM8 2.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z"/>
+	     	  </svg>-->
+			  <img src="favicon.png" type="image/png" style="width:20px;height:20px;"/>
+			  &nbsp;<strong>Trump or the Sun?</strong>&nbsp;<span class="text-muted">BETA</span>
+		    </a>
+		    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+				<svg width="30" height="30" viewBox="0 0 16 16" class="bi bi-question" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+				</svg>
+		    </button>
+		</div>
+	  </div>
+	</header>
+	<main role="main" style="flex: auto">
+		<div class="container-fluid p-0" style="height: 100%">
+			<div class="row no-gutters" style="height: 100%">
+				<div style="" id="questionbox">
+					<div class="container-fluid d-flex justify-content-center align-items-center" style="position:fixed;left:0; z-index:1;text-align: center;height:100%;">
+						<div class="d-flex flex-column align-items-center">
+							<p class="shadowy subqtext">Trump or the Sun?</p>
+							<h1 class="shadowy questiontext qtext1" style="max-width:35em;">Loading...</h1>
+							<button class="btn btn-primary shadowy buttontext m-2" type="submit" style="min-width:5em" onclick="press_donald()">Trump</button>
+							<button class="btn btn-primary shadowy buttontext m-2" type="submit" style="min-width:5em" onclick="press_sun()">The Sun</button>
+						</div>
+					</div>
+				</div>
+				<div style="display:none;" id="answerbox">
+					<div class="container-fluid d-flex justify-content-center align-items-center" style="position:fixed;left:0; z-index:1;text-align: center;height:100%;">
+						<div class="d-flex flex-column align-items-center">
+							<h1 class="shadowy dscoretext" id="dscore" style="color:#00ff00; display:none;">+200</h1>
+							<h1 class="shadowy questiontext-small qtext2" style="max-width:35em;">Loading...</h1>
+							<p style="max-width:25em;">
+								<span class="shadowy subqtext" id="hint">With an average density of 1.4 g/cm³, the Sun is only about 40% denser than water.</span>
+							</p>
+							<p style="max-wdith:25em;">
+								<span class="shadowy attribtext ml-1" id="attrib">By TrumpOrSun</span>
+								<span class="shadowy contribtext ml-1" data-toggle="collapse" data-target="#navbarHeader">Suggest a prompt!</span>
+							</p>
+							<button class="btn btn-primary shadowy buttontext m-2" type="submit" style="min-width:5em" onclick="next()">Next</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm p-0" id="trump-image">
+					<div class="img-bg img-trump d-flex justify-content-around align-items-center">
+						<!--<div>
+							<h1 class="quotetext"><i><b>&ldquo;A large, dense star&rdquo;</b></i></h1>
+						</div>-->
+					</div>
+				</div>
+				<div class="col-sm p-0" id="sun-image">
+					<div class="img-bg img-sun d-flex justify-content-center align-items-center"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	
+	
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  
+  <script>
+		
+		var abox;
+		var qbox;
+		var donimg;
+		var sunimg;
+		var q = [{'q':'','a':'trump'}];
+		var lastval = 0;
+		var prelastval = 0;
+		var answer = 'trump';
+		var attrib = '';
+		var hint = '';
+		
+		
+		
+		$('qtext1').html()
+		
+		function next(){
+			while(true){
+				newval = (Math.random() * q.length) << 0;
+				if (newval != lastval) {
+					if (newval != prelastval){
+						prelastval = lastval;
+						lastval = newval;
+						break;
+					}
+				}
+				if (q.length < 2) break;
+			}
+			$('.qtext1').html(q[lastval]['q']);
+			$('.qtext2').html(q[lastval]['q']);
+			answer = q[lastval]['a'];
+			hint = q[lastval]['h'];
+			attrib = q[lastval]['s'];
+			$("#hint").html(hint);
+			$("#attrib").html(attrib);
+			abox.hide();
+			qbox.show();
+			donimg.show();
+			sunimg.show();
+		}
+		
+		function check(v){
+			var yes = (v === answer);
+			if (answer === 'trump') {
+				sunimg.hide();
+			}
+			else if (answer === 'sun') {
+				donimg.hide();
+			}
+			
+			if (yes){
+				hint = 'Correct! ' + (q[lastval]['h']);
+				$("#hint").html(hint);
+			} else {
+			
+				hint = 'Too bad! ' + (q[lastval]['h']);
+				$("#hint").html(hint);
+			}
+			qbox.hide();
+			abox.show();
+		}
+		
+		function press_donald(){
+			check('trump');
+		}
+		function press_sun(){
+			check('sun');
+		}
+  
+	$(document).ready(function(){
+		
+		abox = $('#answerbox');
+		qbox = $('#questionbox');
+		
+		donimg = $('#trump-image');
+		sunimg = $('#sun-image')
+		abox.hide();
+		qbox.hide()
+		donimg.show();
+		sunimg.show();
+		
+		next();
+		
+		$.ajax({
+		  dataType: "json",
+		  url: 'q',
+		  success: function(data){
+					q = data;
+					$('#numq').html(q.length);
+					next();
+				},
+		  cache: false
+		});
+	});
+  </script>
+  </body>
+</html>
+
+
+  <!--
+  Worshipped
+  Gaseous
+  Heavy
+  sth sth Nuclear
+  Old
+  sth sth Corona
+  sth Force
+  sth Pressure
+  orange
+  
+  -->

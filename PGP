@@ -1,0 +1,28 @@
+See PUBLICPGPKEY at /PUBLICPGPKEY.
+
+PGP allows for 'signatures' on the internet. You can check whether a PGP message is from TrumpOrSun by using an OpenPGP signature checking tool.
+The top of this document contains unsigned messages, the bottom contains the signed messages corresponding to the unsigned ones.
+
+
+Messages:
+- That the PGP key works and that it is associated with TrumpOrSun.
+
+PGP signed messages:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+The PGP key works and is associated with TrumpOrSun.
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v1.0.1
+Comment: http://openpgpjs.org
+
+wsBcBAEBCAAQBQJfU6LTCRDRSF7vjQqNOAAAI0UH/RiA3AMDbK20dYZG5Gtm
+bF1Ikbh14sYq6s9g70qb05/lM4h8fNrEi9QuR748uWhRFgxNaAzvnAO6nQq3
+FSqR9mgCOBJvAV3hcEkIyEemDoTan60ewSQxN0vWAt33MrXHwmuqNEfHIQXc
+1C86MUkx4Yx0aL1dJyw88KWt7/7U1RipZCUjeQRLD98JkQhsUmU5S1ewE0/e
+9hz58tDrzAPUe79pSL0em8Td2wjsnDNUIxbqJxgO0zo5I93fmiAuniVDs2s0
+7Bhyvdd0WzAKNnlYu/G+6WPZr75dAGSrTkSI0vuwZWyv9f3wjgyYuLZXFoXi
+3vsSPnt0ffjuhaEj1ybMBc4=
+=rQOp
+-----END PGP SIGNATURE-----
