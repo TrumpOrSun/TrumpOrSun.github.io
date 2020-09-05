@@ -160,7 +160,12 @@
 		</div>
 	  </div>
 	  <div class="navbar navbar-dark bg-dark shadow-sm">
-		<div class="container d-flex justify-content-between">
+		<div class="container d-flex flex-row-reverse justify-content-between" style="white-space:nowrap;overflow:hidden; flex-wrap:nowrap;">
+		    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+				<svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-question" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+				</svg>
+		    </button>
 			<a href="#" class="navbar-brand d-flex align-items-center">
 			
 			  <!--<svg width="20" height="20" viewBox="0 0 16 16" class="mr-2 bi bi-sun" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -170,11 +175,6 @@
 			  <img src="favicon.png" type="image/png" style="width:20px;height:20px;"/>
 			  &nbsp;<strong>Trump or the Sun?</strong>&nbsp;<span class="text-muted">BETA</span>
 		    </a>
-		    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-				<svg width="30" height="30" viewBox="0 0 16 16" class="bi bi-question" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-					<path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
-				</svg>
-		    </button>
 		</div>
 	  </div>
 	</header>
@@ -183,11 +183,11 @@
 			<div class="row no-gutters" style="height: 100%">
 				<div style="" id="questionbox">
 					<div class="container-fluid d-flex justify-content-center align-items-center" style="position:fixed;left:0; z-index:1;text-align: center;height:100%;">
-						<div class="d-flex flex-column align-items-center">
-							<p class="shadowy subqtext">Trump or the Sun?</p>
-							<h1 class="shadowy questiontext qtext1" style="max-width:35em;">Loading...</h1>
-							<button class="btn btn-primary shadowy buttontext m-2" type="submit" style="min-width:5em" onclick="press_donald()">Trump</button>
+						<div class="d-flex flex-column-reverse align-items-center" style="flex-wrap:nowrap;">
 							<button class="btn btn-primary shadowy buttontext m-2" type="submit" style="min-width:5em" onclick="press_sun()">The Sun</button>
+							<button class="btn btn-primary shadowy buttontext m-2" type="submit" style="min-width:5em" onclick="press_donald()">Trump</button>
+							<h1 class="shadowy questiontext qtext1" style="max-width:35em;">Loading...</h1>
+							<p class="shadowy subqtext">Trump or the Sun?</p>
 						</div>
 					</div>
 				</div>
